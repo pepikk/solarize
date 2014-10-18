@@ -225,24 +225,17 @@ p + .button, p + button{
     font-size: 15px;
     margin-bottom: 29px;
 }
-span.fa-cogs:before{
-    content: "\f085";
-}
-span.fa-wrench:before{
-    content: "\f0ad";
-}
-span.fa-leaf:before{
-    content: "\f06c";
-}
-.special-icons{
+
+
+.bg-white i{
     font-size: 21px;
     color: #82B440;
     line-height: 39px;
 }
-.special-icons:before{
-
-    content: "\f0ad";
+.bg-white i:before{
+    margin-right: 18px;
 }
+
 .left{
     float: left;
     width: 21%;
